@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@600&family=Agbalumo&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: #1d3557;
+}
+.card {
+  margin: 100px auto;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(15, 129, 167);
+  color: white;
+  font-family: "Afacad", sans-serif;
+  border-radius: 20px;
+  display: block;
+  justify-content: center;
+
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  border-radius: 9px;
+  font: "Afacad" 18px;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.search button {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  cursor: pointer;
+  margin: 20px 10px;
+  font-size: 30px;
+  padding: 20px;
+  margin-top: 40px;
+}
+.weather {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+
