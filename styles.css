@@ -46,9 +46,10 @@ body {
   padding: 20px;
   margin-top: 40px;
   transition: .1s all forwards;
+  color: white;
 }
 button:hover {
-  color: white;
+  color: black;
 }
 button:active {
   transform: translateY(-5px);
