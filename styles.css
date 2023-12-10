@@ -45,6 +45,13 @@ body {
   font-size: 30px;
   padding: 20px;
   margin-top: 40px;
+  transition: .1s all forwards;
+}
+button:hover {
+  color: white;
+}
+button:active {
+  transform: translateY(-5px);
 }
 .weather {
   display: grid;
